@@ -59,7 +59,7 @@ nav ul li a:hover{
 .firstSec {
     display: flex;
     justify-content: space-around;
-    margin: 30px 0;
+    margin: 75px 0;
 }
 
 .firstSec>div {

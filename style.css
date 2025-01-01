@@ -8,54 +8,97 @@ body {
     color: white;
     font-family: 'bitter', sans-serif;
 }
-nav{
+header{
+    background-color: #1B263B;
+}
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 45px;
     background-color: #1B263B;
+    
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin: 0 23px;
 }
-.left{
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    color:#cdea77;
+    font-size: 1.3rem;
+    transition: 0.4s;
+}
+.left {
     font-size: 1.3rem;
 }
-.firstSec{
+.left a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+.left a:hover{
+    color:#cdea77;
+    
+    transition: 0.4s;
+}
+.right {
+    font-size: 1.125rem;
+}
+
+.firstSec {
     display: flex;
     justify-content: space-around;
     margin: 30px 0;
 }
-.firstSec > div{
-    width: 25%;
+
+.firstSec>div {
+    width: 30%;
 }
-.rightSec img{
+
+.rightSec img {
     width: 60%;
     margin: 50px 50px;
     align-items: center;
 }
-.hi{
+
+.hi {
     font-size: 2.8rem;
 }
-.name{
+
+.name {
     font-size: 3rem;
-   
+
 }
-.name b{
-    color: #E0E1DD;
+
+.name b {
+    color: #cdea77;
 }
-.dev{
-    font-size: 2.9rem;
+
+.dev {
+    font-size: 2.6rem;
+    color: #84b9f1;
 }
-.content{
-    margin: 50px 50px;
+
+.dev b {
+    color: #cdea77;
 }
-.rightSec{
+
+.content {
+    margin: 75px 50px;
+}
+
+.rightSec {
     display: flex;
     justify-content: center;
 }

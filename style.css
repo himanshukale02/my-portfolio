@@ -267,3 +267,43 @@ button:hover{
 .links a.github:hover {
     background-color: #5a6268;
 }
+.footer{
+    background-color: #1B263B;
+    height: 90px;
+}
+.container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container ul li{
+    list-style: none;
+    margin: 10px;
+}
+.container ul li svg{
+    width: 30px;
+    height: 30px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.scrollUp svg{
+    width: 30px;
+    height: 30px;
+}
+.scrollUp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.scrollUp p{
+    margin: 7px;
+}

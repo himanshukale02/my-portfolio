@@ -2,7 +2,7 @@ var typed = new Typed('#element', {
     strings: ['&lt;Engineer&gt;', '&lt;Web Developer&gt;'],
     typeSpeed: 65,
 });
-var url='https://www.youtube.com/'
+var url='https://drive.google.com/file/d/1fJxjJ2pMnVUR9HGqR8XhPxAntCC7O8dP/view'
 function openResume(){
     window.open(url, '_blank').focus();
 };

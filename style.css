@@ -206,7 +206,7 @@ button:hover{
 
 .card img {
     width: 50%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .card-content {
@@ -306,4 +306,9 @@ button:hover{
 }
 .scrollUp p{
     margin: 7px;
+}
+.about div p{
+    line-height: 1.6;
+    text-align: justify;
+    font-weight: 500;
 }
